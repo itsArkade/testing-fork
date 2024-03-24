@@ -11,8 +11,13 @@ body{
 }
 
 .top{
-    background-image: url("https://t4.ftcdn.net/jpg/03/72/85/69/360_F_372856935_BnPaH0i20GCeuscEWVQLC9CNfZSy29N3.jpg");
+    /* background-image: url("https://betches.s3.amazonaws.com/app/uploads/2019/09/27094047/party.jpg"); */
     background-size: cover;
+}
+
+.mid {
+    padding-top: 13rem;
+    /* margin-top: 5rem; */
 }
 
 .FestMent {
