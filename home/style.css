@@ -16,11 +16,22 @@ body{
 }
 
 .top{
-    /* background-image: url(./assets/Images/best-dance-clubs-night-clubs-san-antonio-nightlife.jpg);
-    background-size: cover; */
     background: linear-gradient(180deg, var(--primary), var(--secondary)),
-    url(./assets/Images/best-dance-clubs-night-clubs-san-antonio-nightlife.jpg) no-repeat center / cover;
+    url(./assets/Images/best-dance-clubs-night-clubs-san-antonio-nightlife.jpg);
+    animation: gradient-animation 10s ease infinite; 
 }
+    
+    @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
 
 .mid {
     padding-top: 13rem;
