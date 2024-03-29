@@ -64,9 +64,75 @@ header{
     margin-left: 40px;
 }
 
-.container {
-    display: grid;
-    justify-content: center;
-    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
-    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+.input-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 2rem;
+}
+
+.input-box:nth-child(2n) {
+    justify-content: flex-end;
+}
+
+
+.input-box label {
+    width: 95%;
+    margin: 5px 0;
+}
+
+.input-box input {
+    height: 40px;
+    width: 95%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.input-box-2 {
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    padding-bottom: 15px;
+}
+
+.input-box-2 input {
+    height: 150px;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.input-box-2 label {
+    width: 95%;
+    margin: 5px 0;
+}
+
+.alert p{
+    font-size: 14px;
+    font-style: italic;    
+    color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    line-height: 1.5;
+}
+
+.alert a {
+    font-weight: bold;
+    text-decoration: none;
+    color: skyblue;
+}
+
+.alert a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+.login-button:hover {
+    background-color: white;
+    color: black;
 }

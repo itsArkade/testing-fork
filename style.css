@@ -89,3 +89,8 @@ header{
     /* font-size: 5rem; */
     /* padding: 10% 0 10%; */
 }
+
+.login-button:hover {
+  background-color: white;
+  color: black;
+}
