@@ -14,6 +14,11 @@ body{
     font-family: 'Poppins', sans-serif;
     /* overflow: hidden; */
 }
+
+.pb-rem {
+    background: linear-gradient(180deg, #02042b, var(--primary));
+    animation: gradient-animation-mid 5s ease infinite;
+}
     
     @keyframes gradient-animation {
         0% {
@@ -26,26 +31,6 @@ body{
           background-position: 0% 50%;
         }
       }
-
-.mid {
-    padding-top: 13rem;
-    /* background-image: url(./assets/Images/best-dance-clubs-night-clubs-san-antonio-nightlife.jpg); */
-    /* margin-top: 5rem; */
-    background: linear-gradient(180deg, #02042b, var(--primary));
-    animation: gradient-animation-mid 5s ease infinite;
-}
-
-/* @keyframes gradient-animation-mid {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  } */
 
 .FestMent {
     color: white;
@@ -60,6 +45,7 @@ header{
     justify-content: flex-end;
     padding:30px 100px;
 }
+
 .nav {
     display: flex;
     align-items: center;
@@ -78,14 +64,9 @@ header{
     margin-left: 40px;
 }
 
-/* .login-btn {
-    border-style: solid;
-    border-radius: 100px;
-    padding: 5px 20px 5px 20px;
-} */
-
-.explore {
-    text-align: center;
-    /* font-size: 5rem; */
-    /* padding: 10% 0 10%; */
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
 }
