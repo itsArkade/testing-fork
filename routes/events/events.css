@@ -69,6 +69,11 @@ header{
     text-decoration: none;
 }
 
+.menu li a:hover {
+    color: #00ffff;
+}
+
+
 .login:hover {
     background-color: white;
     color: black;

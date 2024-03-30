@@ -69,6 +69,11 @@ header{
     margin-left: 40px;
 }
 
+.menu li a:hover {
+    color: #00ffff;
+}
+
+
 .h2 {
     font-size: 2rem;
     color: #fff;

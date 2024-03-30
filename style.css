@@ -78,6 +78,10 @@ header{
     margin-left: 40px;
 }
 
+.menu li a:hover {
+    color: #00ffff;
+}
+
 /* .login-btn {
     border-style: solid;
     border-radius: 100px;
