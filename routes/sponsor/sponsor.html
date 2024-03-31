@@ -12,6 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Poppins&display=swap"
       rel="stylesheet"
     />
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
@@ -47,11 +49,11 @@
       </div> -->
       <div class="inline-flex items-center justify-center w-full">
 
-        <hr class="w-64 h-1 my-8 mx-4 bg-gray-200 border-0 rounded dark:bg-gray-700">
-        <div class="text-6xl text-white text-center py-[4rem]">
+        <hr class="line-left w-64 h-1 my-8 mx-4 bg-gray-200 border-0 rounded dark:bg-gray-700">
+        <div class="sponsor text-6xl text-white text-center py-[4rem]">
           Sponsorship Enquiry
         </div>
-        <hr class="w-64 h-1 my-8 mx-4 bg-gray-200 border-0 rounded dark:bg-gray-700">
+        <hr class="line-right w-64 h-1 my-8 mx-4 bg-gray-200 border-0 rounded dark:bg-gray-700">
       </div>
 
       <p class="text-white text-center">
@@ -132,5 +134,12 @@
         </div>
       </div>
     </div>
+
+    <script>
+      gsap.from('.line-left', 1.5, {opacity:0, x: -100, delay:0.25})
+      gsap.from('.line-right', 1.5, {opacity:0, x: 100, delay:0.25})
+      gsap.from('.sponsor', 1.2, {opacity:0, y: -80, delay:0.25})
+    </script>
+
   </body>
 </html>
