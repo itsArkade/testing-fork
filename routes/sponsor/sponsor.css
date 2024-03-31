@@ -44,12 +44,12 @@ body{
     margin-right: auto;
 }
 
-header{
+/* header{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding:30px 100px;
-}
+} */
 
 .nav {
     display: flex;

@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
     <link
-      href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Poppins&display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Poppins&display=swap"
+    rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
   <body>
     <div class="pb-[5rem] bg-gradient-to-b from-[#000000] to-[#000333] min-h-screen bg-cover bg-no-repeat bg-center bg-scroll" style="background: linear-gradient(180deg, var(--primary), var(--secondary)), url(./Images/best-dance-clubs-night-clubs-san-antonio-nightlife.jpg?version=1); animation: gradient-animation 10s ease infinite;">
 
-      <header>
-        <div class="FestMent">Fest<span class="underline underline-offset-[4px] text-[#00ffff] decoration-white">Ment</span></div>
+      <header class="flex justify-end items-center px-20 py-10">
+        <div class="FestMent">FestMent</div>
         <div>
           <nav>
             <ul class="menu">
@@ -37,7 +37,7 @@
           </nav>
         </div>
       </header>
-      <div class="flex justify-center mb-5 pt-[5rem]">
+      <div class="big-text flex justify-center mb-5 pt-[5rem]">
         <div class="my-auto mr-4">
           <p class="text-4xl text-right text-white">Explore Our</p>
           <p class="text-4xl text-right text-white">events</p>
@@ -77,13 +77,18 @@
       </form>
 
       <p
-        class="flex justify-center text-xl font-light px-[30rem] pt-20 pb-[10rem] text-white text-center"
+        class="intro flex flex-wrap justify-center text-xl font-light px-[30rem] pt-20 pb-[10rem] text-white text-center"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, repellat
         vel itaque nostrum quo magnam. Officia labore, consequatur illum eum ab
         saepe aperiam a praesentium possimus cupiditate, eius blanditiis
         aliquid.
       </p>
+
+      <script>
+        gsap.from('.intro', 1.2, {opacity:0, y: 80, delay:0.75})
+        gsap.from('.big-text', 1.2, {opacity:0, y: -80, delay:0.50})
+      </script>
       <!-- <div class="flex justify-center items-center">
         <div></div>
         <button
