@@ -70,7 +70,7 @@ header{
 }
 
 .menu li a:hover {
-    color: #00ffff;
+    color: skyblue;
 }
 
 
@@ -79,3 +79,9 @@ header{
     color: black;
 }
 
+.events {
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
