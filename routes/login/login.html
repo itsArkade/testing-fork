@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FestMent-Login</title>
-    <link rel="stylesheet" href="sponsor.css" />
+    <link rel="stylesheet" href="login.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -16,35 +16,56 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-scroll pb-[5rem] bg-gradient-to-b from-[#000000] to-[#000333] min-h-screen">
+  <body class="pb-[5rem] bg-gradient-to-b from-[#000000] to-[#000333] min-h-screen bg-cover bg-no-repeat bg-center bg-scroll" style="background: linear-gradient(180deg, var(--primary), var(--secondary)), url(istock-501599463-1594880406.jpg);">
+   <div>
+    <header class="flex justify-end items-center px-20 py-10">
+      <div class="FestMent">FestMent</div>
+      <div>
+        <nav>
+          <ul class="menu">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="./routes/events/events.html">Events</a></li>
+            <li><a href="./routes/sponsor/sponsor.html">Sponsor</a></li>
+            <li>
+              <a href="#"
+                ><button class="login-button py-2 px-6 border-2 rounded-full text-white">
+                  Login
+                </button></a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+   </div>
     
     
 
-<footer class="bg-white rounded-lg shadow dark:bg-slate-950">
-    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-        <div class="sm:flex sm:items-center sm:justify-between">
-            <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">FestMent</span>
-            </a>
-            <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
-                <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">About</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
-                </li>
-                <li>
-                    <a href="#" class="hover:underline">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" class="hover:underline">FestMent™</a>. All Rights Reserved.</span>
-    </div>
-</footer>
+  <footer class="bg-white rounded-lg shadow dark:bg-slate-950">
+      <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+          <div class="sm:flex sm:items-center sm:justify-between">
+              <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">FestMent</span>
+              </a>
+              <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                  <li>
+                      <a href="#" class="hover:underline me-4 md:me-6">About</a>
+                  </li>
+                  <li>
+                      <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+                  </li>
+                  <li>
+                      <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+                  </li>
+                  <li>
+                      <a href="#" class="hover:underline">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href="https://flowbite.com/" class="hover:underline">FestMent™</a>. All Rights Reserved.</span>
+      </div>
+  </footer>
 
 
 
