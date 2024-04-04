@@ -17,9 +17,25 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(cover-image-1-scaled.png);
-
+    /* overflow: hidden; */
 }
+
+.pb-rem {
+    background: linear-gradient(180deg, #02042b, var(--primary));
+    animation: gradient-animation-mid 5s ease infinite;
+}
+    
+    @keyframes gradient-animation {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
 
 .FestMent {
     color: white;
@@ -34,6 +50,7 @@ body{
     justify-content: flex-end;
     padding:30px 100px;
 } */
+
 .nav {
     display: flex;
     align-items: center;
@@ -56,12 +73,16 @@ body{
     color: skyblue;
 }
 
-.login-button:hover {
-    background-color: white;
-    color: black;
-  }
 
-  .input-box {
+.h2 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: left;
+    padding-bottom: 8px;
+    /* border-bottom: 1px solid grey; */
+}
+
+.input-box {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
@@ -109,7 +130,8 @@ body{
 }
 
 .alert p{
-    font-size: 12px;    
+    font-size: 14px;
+    font-style: italic;    
     color: #fff;
     margin: 5px 0;
     padding: 10px;
@@ -123,6 +145,7 @@ body{
 }
 
 .alert a:hover {
+    font-weight: bold;
     text-decoration: none;
     color: red;
 }
@@ -132,10 +155,11 @@ body{
     color: black;
 }
 
-.question-button {
-    width: 100%;
-    margin-top: 20px;
-    padding: 15px 40px;
+.submit-button {
+    width: 20%;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
     font-size: 20px;
     color:#fff;
     border: solid hsl(0, 0%, 50%) 1px;
@@ -144,15 +168,8 @@ body{
     transition: 0.3s;
 }
 
-.question-button:hover {
+.submit-button:hover {
     background-color: #00ffffcc;
     color: black;
     border-color: black;
-}
-
-.login-text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
 }
