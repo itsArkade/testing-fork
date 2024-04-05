@@ -51,12 +51,12 @@ body{
     }
   } */
 
-.FestMent {
+/* .FestMent {
     color: white;
     font-size: 2.5rem;
     font-weight: 600;
     margin-right: auto;
-}
+} */
 
 /* header{
     display: flex;
@@ -64,7 +64,8 @@ body{
     justify-content: flex-end;
     padding:30px 100px;
 } */
-.nav {
+
+/* .nav {
     display: flex;
     align-items: center;
 }
@@ -84,7 +85,7 @@ body{
 
 .menu li a:hover {
     color: skyblue;
-}
+} */
 
 /* .login-btn {
     border-style: solid;
@@ -92,13 +93,30 @@ body{
     padding: 5px 20px 5px 20px;
 } */
 
-.explore {
+/* .explore {
     text-align: center;
-    /* font-size: 5rem; */
-    /* padding: 10% 0 10%; */
-}
+    font-size: 5rem;
+    padding: 10% 0 10%;
+} */
 
-.login-button:hover {
+/* .login-button:hover {
   background-color: white;
   color: black;
 }
+
+.section {
+  display: flex;  
+}
+
+.box-1 {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+.box-2 {
+  height: 100%;
+  width: 100%;
+  float: left;
+} */
+

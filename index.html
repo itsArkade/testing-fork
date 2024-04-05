@@ -15,10 +15,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="pb-[5rem] bg-gradient-to-b from-[#000000] to-[#000333] min-h-screen bg-cover bg-no-repeat bg-center bg-scroll" style="background: linear-gradient(180deg, var(--primary), var(--secondary)), url(./Images/best-dance-clubs-night-clubs-san-antonio-nightlife.jpg?version=1); animation: gradient-animation 10s ease infinite;">
-    <div >
+  <body class="py-[2rem] bg-gradient-to-b from-[#000000] to-[#000333] min-h-screen bg-cover bg-no-repeat bg-center bg-scroll" style="background: linear-gradient(180deg, var(--primary), var(--secondary)), url(./Images/best-dance-clubs-night-clubs-san-antonio-nightlife.jpg?version=1); animation: gradient-animation 10s ease infinite;">
 
-      <header class="flex justify-end items-center px-20 py-10">
+  <div >
+
+      <!-- <header class="flex justify-end items-center px-20 py-10">
         <div class="FestMent">FestMent</div>
         <div>
           <nav>
@@ -36,58 +37,124 @@
             </ul>
           </nav>
         </div>
-      </header>
-      <div class="big-text flex justify-center mb-5 pt-[5rem]">
+      </header> -->
+      <!-- <div class="big-text justify-center mb-5 pt-[5rem]">
         <div class="my-auto mr-4">
-          <p class="text-4xl text-right text-white">Explore Our</p>
-          <p class="text-4xl text-right text-white">events</p>
+          <p class="welcome text-4xl text-white text-center">Welcome to</p>
         </div>
         <div class="my-auto">
-          <p class="text-[6rem] font-extrabold text-white">20+</p>
+          <p class="festment-text text-[6rem] font-extrabold text-white text-center">FestMent</p>
+        </div>
+      </div> -->
+
+      <div class="relative isolate overflow-hidden py-12 sm:py-24">
+        <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
+          <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        </div>
+        <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
+          <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
+        </div>
+        <div class="mx-auto max-w-7xl px-6 lg:px-8">
+          <div class="mx-auto max-w-2xl lg:mx-0">
+            <h2 class="fest-text text-4xl font-bold tracking-tight text-white sm:text-6xl">FestMent</h2>
+            <p class="para-text mt-6 text-lg leading-8 text-gray-300">FestMent is an innovative online platform designed to enhance the college experience by providing students with easy access to a wide range of events happening in and around their campuses.</p>
+          </div>
+
+          <form class="flex items-center max-w-lg mx-auto my-[4rem]">
+            <label for="voice-search" class="sr-only">Search</label>
+            <div class="relative w-full">
+              <div
+                class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="20"
+                  height="20"
+                >
+                  <path
+                    fill="#b0b0b0"
+                    d="M21.71 20.29l-5.33-5.33A7.93 7.93 0 0 0 18 10c0-4.41-3.59-8-8-8S2 5.59 2 10s3.59 8 8 8c1.67 0 3.22-.51 4.5-1.38l5.33 5.33c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"
+                  />
+                  <path fill="none" d="M0 0h24v24H0V0z" />
+                </svg>
+              </div>
+              <input
+                type="text"
+                id="voice-search"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 dark:bg-[#ffffff20] dark:border-[#ffffff25] dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                placeholder="Search by Colleges..."
+                required
+              />
+            </div>
+          </form>
+
+          <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+            <div class="grid grid-cols-1 gap-x-8 gap-y-6 text-xl font-light leading-7 text-white sm:grid-cols-2 md:flex lg:gap-x-10">
+              <a href="./routes/events/events.html"><button class="transition duration-200 ease-in-out bg-black border border-gray-700 rounded-[10px] py-3 px-6 text-center hover:scale-105 hover:border-purple-700">Events <span class="text-xl py-auto px-2 text-center" aria-hidden="true">></span></button></a>
+              <!-- <a href=""><button class="transition duration-200 ease-in-out bg-black border border-gray-700 rounded-[10px] py-3 px-6 text-center hover:scale-105 hover:border-purple-700">Sponsors <span class="text-xl py-auto px-2 text-center" aria-hidden="true">></span></button></a> -->
+              <!-- <a href=""><button class="transition duration-200 ease-in-out bg-black border border-gray-700 rounded-[10px] py-3 px-6 text-center hover:scale-105 hover:border-purple-700">Collaborate <span class="text-xl py-auto px-2 text-center" aria-hidden="true">></span></button></a> -->
+              <a href="./routes/login/login.html"><button class="transition duration-200 ease-in-out bg-black border border-gray-700 rounded-[10px] py-3 px-6 text-center hover:scale-105 hover:border-purple-700">Get Started <span class="text-xl py-auto px-2 text-center" aria-hidden="true">></span></button></a>
+            </div>
+            <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
+              <div class="flex flex-col-reverse">
+                <dt class="text-base leading-7 text-gray-300">Offices worldwide</dt>
+                <dd class="text-2xl font-bold leading-9 tracking-tight text-white">12</dd>
+              </div>
+              <div class="flex flex-col-reverse">
+                <dt class="text-base leading-7 text-gray-300">Full-time colleagues</dt>
+                <dd class="text-2xl font-bold leading-9 tracking-tight text-white">300+</dd>
+              </div>
+              <div class="flex flex-col-reverse">
+                <dt class="text-base leading-7 text-gray-300">Hours per week</dt>
+                <dd class="text-2xl font-bold leading-9 tracking-tight text-white">40</dd>
+              </div>
+              <div class="flex flex-col-reverse">
+                <dt class="text-base leading-7 text-gray-300">Paid time off</dt>
+                <dd class="text-2xl font-bold leading-9 tracking-tight text-white">Unlimited</dd>
+              </div>
+            </dl>
+          </div>
         </div>
       </div>
+      
 
-      <form class="flex items-center max-w-lg mx-auto">
-        <label for="voice-search" class="sr-only">Search</label>
-        <div class="relative w-full">
-          <div
-            class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              width="20"
-              height="20"
-            >
-              <path
-                fill="#b0b0b0"
-                d="M21.71 20.29l-5.33-5.33A7.93 7.93 0 0 0 18 10c0-4.41-3.59-8-8-8S2 5.59 2 10s3.59 8 8 8c1.67 0 3.22-.51 4.5-1.38l5.33 5.33c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"
-              />
-              <path fill="none" d="M0 0h24v24H0V0z" />
-            </svg>
-          </div>
-          <input
-            type="text"
-            id="voice-search"
-            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full ps-10 p-2.5 dark:bg-[#ffffff20] dark:border-[#ffffff25] dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Search by Colleges..."
-            required
-          />
-        </div>
-      </form>
+      
 
-      <p
+      <!-- <p
         class="intro flex flex-wrap justify-center text-xl font-light px-[30rem] pt-20 pb-[10rem] text-white text-center"
       >
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, repellat
         vel itaque nostrum quo magnam. Officia labore, consequatur illum eum ab
         saepe aperiam a praesentium possimus cupiditate, eius blanditiis
         aliquid.
-      </p>
+      </p> -->
+
+      <!-- <div>
+        <section class="section my-auto mx-[20rem] py-10">
+          <div  class="box-1 border px-10 py-5 text-white max-w-48">
+            <button>Events</button>
+          </div>
+          <div class="box-2 border py-5 px-10 text-white">
+            <img class="max-w-lg" src="./Images/istock-501599463-1594880406.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi totam ipsa repellendus dolore voluptates natus in deserunt nulla laudantium ullam velit nemo atque voluptatem, voluptatibus, officia eveniet quibusdam aliquid quo?</p>
+          </div>
+        </section>
+        <section class="section my-auto mx-[20rem]">
+          <button class="nav-block btn border px-10 py-5 text-white max-w-48">Get Sponsors</button>
+          <div class="nav-block info border py-5 px-10 text-white text-right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi totam ipsa repellendus dolore voluptates natus in deserunt nulla laudantium ullam velit nemo atque voluptatem, voluptatibus, officia eveniet quibusdam aliquid quo?</div>
+        </section>
+        <section class="section my-auto mx-[20rem]">
+          <button class="nav-block btn border px-10 py-5 text-white max-w-48">Collaborate</button>
+          <div class="nav-block info border py-5 px-10 text-white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi totam ipsa repellendus dolore voluptates natus in deserunt nulla laudantium ullam velit nemo atque voluptatem, voluptatibus, officia eveniet quibusdam aliquid quo?</div>
+        </section>
+      </div> -->
 
       <script>
-        gsap.from('.intro', 1.2, {opacity:0, y: 80, delay:0.50})
-        gsap.from('.big-text', 1.2, {opacity:0, y: -80, delay:0.25})
+        // gsap.from('.intro', 1.2, {opacity:0, y: 80, delay:0.50})
+        // gsap.from('.big-text', 1.2, {opacity:0, y: -80, delay:0.25})
+        // gsap.from(".para-text", 2.0, { opacity: 0, x: 180, delay: 0.25 });
+        gsap.from(".fest-text", 2.0, { opacity: 0, x: -180, delay: 0.25 });
       </script>
       <!-- <div class="flex justify-center items-center">
         <div></div>

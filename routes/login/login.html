@@ -31,7 +31,7 @@
             <ul class="menu">
               <li><a href="../../index.html">Home</a></li>
               <li><a href="../events/events.html">Events</a></li>
-              <li><a href="../sponsor/sponsor.html">Collaborate</a></li>
+              <!-- <li><a href="../sponsor/sponsor.html">Collaborate</a></li> -->
               <li>
                 <a href="#"
                   ><button
@@ -49,12 +49,13 @@
 
     <div class="grid grid-cols-2 my-[15rem]">
       <div class="login-text text-center my-auto mx-auto">
-        <h1 class="welcome-text text-6xl font-bold text-white py-[5px]">
+        <h1 class="welcome-text text-6xl font-bold text-white mx-auto py-[5px]">
           Welcome to
         </h1>
-        <h1 class="festment-text text-8xl font-bold text-white py-[5px]">
+        <h1 class="festment-text text-8xl font-bold text-white mx-auto py-[5px]">
           FestMent
         </h1>
+        <p class="para-text text-white my-[2rem] mx-[5rem] py-[5px] max-w-4xl">More than just an event listing website, FestMent serves as a comprehensive hub that connects students, colleges, and sponsors, facilitating seamless collaboration and engagement.</p>
       </div>
       <div class="login-details justify-center items-center m-auto">
 
@@ -130,7 +131,8 @@
     <script>
       gsap.from(".login-details", 1.75, { opacity: 0, x: 180, delay: 0.25 });
       gsap.from(".welcome-text", 1.75, { opacity: 0, x: -180, delay: 0.25 });
-      gsap.from(".festment-text", 2.0, { opacity: 0, x: -180, delay: 0.75 });
+      gsap.from(".festment-text", 1.75, { opacity: 0, x: -160, delay: 0.5 });
+      // gsap.from(".para-text", 2, { opacity: 0, y: 80, delay: 0.5 });
       gsap.from(".line-right", 1.5, { opacity: 0, x: 100, delay: 0.25 });
       gsap.from(".sponsor", 1.2, { opacity: 0, y: -80, delay: 0.25 });
     </script>
